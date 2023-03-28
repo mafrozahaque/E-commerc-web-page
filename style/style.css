@@ -1,0 +1,122 @@
+
+/* root */
+
+
+
+
+/* section 1, cover */
+.header{
+    margin-bottom: 20px;
+}
+
+#home {
+    background-color: #4db6fc;
+    border-radius: 30px;
+    margin-top: 5rem;
+    padding: 3rem;
+}
+.cover-heading {
+    font-size: 2.5rem;
+}
+.cover-peragrp {
+    font-size: 1rem;
+}
+.cover-img  img{
+    width: 100%;
+  }
+#product {
+    background-color: #4caff1;
+}
+.btn :hover{
+    background-color: white;
+    color: black;
+}
+
+.h5-edit{
+    margin-top: 0;
+}
+
+#col-edit{
+   
+}
+/* Conatct form */
+.contact-form {
+    height: 50vh;
+    background-color: #7ee03d;
+    padding: 30px;
+}
+.contact{
+    padding-bottom: 20px;
+}
+.form {
+    padding: 5px 30px;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+    border-right: none;
+    /* margin-right: 50px; */
+}
+.form-btn {
+    padding: 8.5px 15px;
+    background-color: #4caff1;
+    color: white;
+    border-top-right-radius: 10%;
+    border-bottom-right-radius: 10%;
+}
+.footer {
+    background-color: #4caff1;
+    color: white;
+}
+/* contain div none */
+.hide {
+    display: none;
+}
+.social-icon {
+    text-decoration: none;
+    font-size: 30px;
+}
+.facebook {
+    color: #055783;
+}
+.linkedin {
+    color: #055783;
+}
+.instagram {
+    color: #da6b04;
+}
+.youtube {
+    color: #FF0000;
+}
+
+  /* Media query */
+     /* small device */
+     @media (max-width: 768px) {
+        .cover {
+            display: flex;
+            flex-direction: column-reverse;
+        }  
+        #home {
+            padding: 6% 0;     
+        }
+        .form {
+            padding: 5px 5px;
+        }
+        .form-btn {
+            padding: 8.5px 6px;
+        }
+       }
+/* media queary */
+/* medum device */
+@media (min-width: 768px) and (max-width: 992px) {
+    /* .hide {
+        display: block;
+    } */
+    #home {
+        padding: 2%;
+    }
+    .cover-heading {
+        font-size: 1.5rem;
+    }
+    .cover-peragrp {
+        font-size: 1rem;
+    }
+}
